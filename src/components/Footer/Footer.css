@@ -1,0 +1,17 @@
+.Footer {
+    background-color: var(--primary);
+    width: 100%;
+    min-height: 4rem;
+
+    grid-area: Footer;
+}
+
+.Footer > .Footer__Content {
+    padding: 1rem;
+    color: #FFF;
+    text-align: center;
+}
+
+.Footer > .Footer__Content p {
+    margin: 0.25rem;
+}

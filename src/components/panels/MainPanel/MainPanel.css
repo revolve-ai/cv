@@ -1,25 +1,34 @@
-/*
-    Define the Size of the MainPanel on the grid view
-*/
-/* Desktop */
-@media (min-width: 768px) { 
-    .MainPanel {
-        grid-row: 1 / 3;
-    }
+.MainPanel {
+    grid-area: MainPanel;
 }
 
 /*
     Escape the parent's padding by reversing it.
     Additionally at bottom some space for the name is created.
 */
-.MainPanel > .ProfileImage {
-    margin: -1rem -1rem -2.5rem -1rem;
+.MainPanel .ProfileImage {
+    margin-bottom: -2.5rem;
+    width: 100%;
+    height: auto;
 }
 
-.MainPanel > .ProfileName {
+.MainPanel .ProfileName {
     font-family: var(--header-font);
     font-size: 2rem;
 
     position: relative;
     top: -0.5rem;
+}
+
+.MainPanel > .MainPanel__Social, 
+.MainPanel > .MainPanel__Languages, 
+.MainPanel > .MainPanel__Profile {
+    padding: 0 1rem 0 1rem;
+}
+
+/*
+    Social Icons should be in grayscale by default
+*/
+.MainPanel > .MainPanel__Social i {
+    color: black;
 }

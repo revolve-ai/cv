@@ -1,5 +1,36 @@
-@media (min-width: 768px) { 
-    .EducationPanel {
-        grid-column: 2 / 4;
-    }
+.EducationPanel {
+    grid-area: EducationPanel;
+}
+
+.EducationPanel > .EducationPanel__Nav {
+    margin: 0 -1rem -1rem 0;
+}
+
+.EducationPanel > .EducationPanel__Nav li {
+    clear: both;
+    cursor: pointer;
+    transition-duration: .15s;
+    border: 1px solid transparent;
+
+    padding: 0.8rem;
+}
+
+.EducationPanel > .EducationPanel__Nav li:hover:not(.EducationPanel__Nav__Active) {
+    background-color: var(--offset-dark);
+    border-bottom: 1px solid var(--offset-dark);
+}
+
+.EducationPanel > .EducationPanel__Nav li.EducationPanel__Nav__Active {
+    background-color: white;
+    border-top: 1px solid var(--offset-dark);
+    border-left: 1px solid var(--offset-dark);
+    border-right: 1px solid var(--offset-dark);
+}
+
+.EducationPanel > .EducationPanel__Content {
+    padding: 1rem;
+}
+
+.EducationPanel .EducationPanel__TabWork__Item_Date {
+    margin: 0.75rem 0;
 }

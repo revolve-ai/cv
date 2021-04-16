@@ -1,0 +1,19 @@
+.Gaugage {
+    width: 100%;
+    background-color: var(--offset);
+    border-radius: 6px;
+    padding: 0.25rem 0.25rem;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.Gaugage > .Gaugage__Fill {
+    background-color: var(--primary);
+    border-radius: 6px;
+    height: 1.25rem;
+}
+
+.Gaugage > .Gaugage__Text {
+    bottom: 0.15rem;
+    align-self: center;
+}

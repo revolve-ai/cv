@@ -1,11 +1,12 @@
+import React from 'react';
 import './WorkPanel.css';
 
-function WorkPanel() {
-    return (
-        <div className="AppPanel WorkPanel">
-            WorkPanel
-        </div>
-    );
+export default class WorkPanel extends React.Component {
+    render() {
+        return (
+            <div className="AppPanel WorkPanel">
+                WorkPanel
+            </div>
+        );
+    }
 }
-
-export default WorkPanel;
