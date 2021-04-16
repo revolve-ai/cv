@@ -1,0 +1,25 @@
+/*
+    Define the Size of the MainPanel on the grid view
+*/
+/* Desktop */
+@media (min-width: 768px) { 
+    .MainPanel {
+        grid-row: 1 / 3;
+    }
+}
+
+/*
+    Escape the parent's padding by reversing it.
+    Additionally at bottom some space for the name is created.
+*/
+.MainPanel > .ProfileImage {
+    margin: -1rem -1rem -2.5rem -1rem;
+}
+
+.MainPanel > .ProfileName {
+    font-family: var(--header-font);
+    font-size: 2rem;
+
+    position: relative;
+    top: -0.5rem;
+}
