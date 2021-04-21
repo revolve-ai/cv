@@ -4,6 +4,10 @@
     gap: 1rem;
 }
 
+.Grid:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
 @media (min-width: 1065px) {
     .Grid {
         grid-template-columns: 1fr 1fr 1fr;
