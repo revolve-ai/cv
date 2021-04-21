@@ -3,7 +3,7 @@ import './App.css';
 import React from 'react';
 import MainPanel from './components/panels/MainPanel/MainPanel';
 import EducationPanel from './components/panels/EducationPanel/EducationPanel';
-import WorkPanel from './components/panels/WorkPanel/WorkPanel';
+import SkillPanel from './components/panels/SkillPanel/SkillPanel';
 import Footer from './components/Footer/Footer';
 
 export default class App extends React.Component {
@@ -12,8 +12,8 @@ export default class App extends React.Component {
       <div className="App">
         <div className="AppGrid">
           <MainPanel />
+          <SkillPanel />
           <EducationPanel />
-          <WorkPanel />
           <Footer />
         </div>
       </div>

@@ -6,7 +6,7 @@ export default class MainPanel extends React.Component {
     render() {
         return (
             <div className="AppPanel MainPanel">
-                <img className="ProfileImage" alt="" src="https://www.w3schools.com/w3images/avatar_hat.jpg" />
+                <img className="ProfileImage" alt="" src="https://scontent-frt3-1.xx.fbcdn.net/v/t1.6435-9/44173739_1941053362620152_4308006421573664768_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=174925&_nc_ohc=tobDT3WkHMQAX_sMDqP&_nc_ht=scontent-frt3-1.xx&oh=bf23ef3a320067293f1a350e39f724c9&oe=60A674E6" />
                 <div className="MainPanel__Profile">
                     <span className="ProfileName">Sandro Schaurer, 24</span>
                     <ul>
@@ -28,6 +28,13 @@ export default class MainPanel extends React.Component {
                             <span>English</span>
                             <Gaugage value={72} maxValue={100} />
                         </li>
+                    </ul>
+                    <hr />
+                </div>
+                <div className="MainPanel__SoftSkills">
+                    <h2> Soft Skills</h2>
+                    <ul>
+                        <li></li>
                     </ul>
                     <hr />
                 </div>

@@ -5,6 +5,7 @@
     padding: 0.25rem 0.25rem;
     box-sizing: border-box;
     display: flex;
+    margin: 0.25rem 0;
 }
 
 .Gaugage > .Gaugage__Fill {

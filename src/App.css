@@ -14,8 +14,8 @@
     grid-template-areas: 
         ". . ."
         ". MainPanel ."
+        ". SkillPanel ."
         ". EducationPanel ."
-        ". ExperiencePanel ."
         "Footer Footer Footer";
     gap: 1rem;
 }
@@ -25,8 +25,8 @@
         grid-template-rows: 1rem auto 1fr auto;
         grid-template-areas: 
             ". . . . ."
+            ". MainPanel SkillPanel SkillPanel ."
             ". MainPanel EducationPanel EducationPanel ."
-            ". MainPanel ExperiencePanel ExperiencePanel ."
             "Footer Footer Footer Footer Footer";
     }
 }
@@ -36,8 +36,8 @@
         grid-template-columns: 15% 25rem 1fr 1fr 15%;
         grid-template-areas: 
             ". . . . ."
+            ". MainPanel SkillPanel SkillPanel ."
             ". MainPanel EducationPanel EducationPanel ."
-            ". MainPanel ExperiencePanel ExperiencePanel ."
             "Footer Footer Footer Footer Footer";
     }
 }

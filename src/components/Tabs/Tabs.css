@@ -1,0 +1,30 @@
+.Tabs__Nav {
+    margin: 0 0 -1rem 0;
+}
+
+.Tabs__NavItem {
+    padding: 0 1rem;
+    height: 3.5rem;
+    line-height: 2.25;
+    border-right: 1px solid transparent;
+
+    user-select: none;
+
+    transition-duration: .2s;
+}
+
+.Tabs__NavItem:not(:last-child) {
+    border-right: 1px solid var(--offset-dark);
+}
+
+.Tabs__NavItem:not(.Tabs__NavItem__Active):hover {
+    background-color: var(--offset-dark);
+}
+
+.Tabs__NavItem__Active {
+    background-color: #FFF;
+}
+
+.Tabs__NavItem__Active:last-child {
+    border-right: 1px solid var(--offset-dark);
+}

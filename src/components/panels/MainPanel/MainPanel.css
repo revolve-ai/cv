@@ -15,6 +15,7 @@
 .MainPanel .ProfileName {
     font-family: var(--header-font);
     font-size: 2rem;
+    color: #FFF;
 
     position: relative;
     top: -0.5rem;
@@ -22,13 +23,14 @@
 
 .MainPanel > .MainPanel__Social, 
 .MainPanel > .MainPanel__Languages, 
-.MainPanel > .MainPanel__Profile {
+.MainPanel > .MainPanel__Profile,
+.MainPanel > .MainPanel__SoftSkills {
     padding: 0 1rem 0 1rem;
 }
 
 /*
     Social Icons should be in grayscale by default
 */
-.MainPanel > .MainPanel__Social i {
+.MainPanel > .MainPanel__Social .bi-github {
     color: black;
 }
