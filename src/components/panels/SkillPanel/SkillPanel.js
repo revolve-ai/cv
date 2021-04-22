@@ -9,7 +9,7 @@ export default class WorkPanel extends React.Component {
         langauges: [
             {
                 name: "JavaScript",
-                image: "/data/images/JavaScriptLogo.png",
+                image: "./data/images/JavaScriptLogo.png",
             value: 90,
                 perks: [
                     <a href="https://reactjs.org/" target="_blank" rel="noreferrer">React <i className="bi bi-check"></i></a>,
@@ -20,7 +20,7 @@ export default class WorkPanel extends React.Component {
             },
             {
                 name: "CSS",
-                image: "/data/images/CSS3Logo.png",
+                image: "./data/images/CSS3Logo.png",
                 value: 82,
                 perks: [
                     <a href="https://lesscss.org/" target="_blank" rel="noreferrer">Less <i className="bi bi-check"></i></a>,
@@ -29,7 +29,7 @@ export default class WorkPanel extends React.Component {
             },
             {
                 name: "C#",
-                image: "/data/images/CSharpLogo.png",
+                image: "./data/images/CSharpLogo.png",
                 value: 75,
                 perks: [
                     <a href="https://unity.com/de" target="_blank" rel="noreferrer">Unity <i className="bi bi-check"></i></a>,
@@ -39,37 +39,37 @@ export default class WorkPanel extends React.Component {
             },
             {
                 name: "TypeScript",
-                image: "/data/images/TypeScriptLogo.png",
+                image: "./data/images/TypeScriptLogo.png",
                 value: 75,
                 perks: []
             },
             {
                 name: "Html",
-                image: "/data/images/HTML5Logo.png",
+                image: "./data/images/HTML5Logo.png",
                 value: 95,
                 perks: []
             },
             {
                 name: "PHP",
-                image: "/data/images/PHPLogo.png",
+                image: "./data/images/PHPLogo.png",
                 value: 65,
                 perks: []
             },
             {
                 name: "Java",
-                image: "/data/images/JavaLogo.png",
+                image: "./data/images/JavaLogo.png",
                 value: 45,
                 perks: []
             },
             {
                 name: "Lua",
-                image: "/data/images/LuaLogo.png",
+                image: "./data/images/LuaLogo.png",
                 value: 35,
                 perks: []
             },
             {
                 name: "Python",
-                image: "/data/images/PythonLogo.png",
+                image: "./data/images/PythonLogo.png",
                 value: 30,
                 perks: []
             }
@@ -77,13 +77,13 @@ export default class WorkPanel extends React.Component {
         databases: [
             {
                 name: "MySQL",
-                image: "/data/images/MySQLLogo.png",
+                image: "./data/images/MySQLLogo.png",
                 value: 75,
                 perks: []
             },
             {
                 name: "MongoDB",
-                image: "/data/images/MongoDBLogo.png",
+                image: "./data/images/MongoDBLogo.png",
                 value: 65,
                 perks: []
             }
@@ -91,13 +91,13 @@ export default class WorkPanel extends React.Component {
         other: [
             {
                 name: "Windows",
-                image: "/data/images/WindowsLogo.png",
+                image: "./data/images/WindowsLogo.png",
                 value: 90,
                 perks: []
             },
             {
                 name: "Linux",
-                image: "/data/images/LinuxLogo.png",
+                image: "./data/images/LinuxLogo.png",
                 value: 80,
                 perks: []
             }
@@ -105,7 +105,7 @@ export default class WorkPanel extends React.Component {
         projects: [
             {
                 name: <a href="https://github.com/Aruinerk/CVHost" target="_blank" rel="noreferrer">CVHost</a>,
-                image: "/data/images/GitHubLogo.png",
+                image: "./data/images/GitHubLogo.png",
                 progress: 80,
                 perks: [
                     "JavaScript/React"
@@ -116,7 +116,7 @@ export default class WorkPanel extends React.Component {
             },
             {
                 name: <a href="https://xrechnung.new" target="_blank" rel="noreferrer">XRechnung.new</a>,
-                image: "/data/images/GitHubLogo.png",
+                image: "./data/images/GitHubLogo.png",
                 progress: 100,
                 perks: [
                     "TypeScript/Vue.js",
@@ -128,7 +128,7 @@ export default class WorkPanel extends React.Component {
             },
             {
                 name: <a href="https://github.com/AruOnline/DBCache" target="_blank" rel="noreferrer">AruOnline/DBCache</a>,
-                image: "/data/images/GitHubLogo.png",
+                image: "./data/images/GitHubLogo.png",
                 progress: 90,
                 perks: [
                     "C#/.NET Standard",
