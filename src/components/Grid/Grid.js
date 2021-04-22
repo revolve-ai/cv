@@ -13,12 +13,13 @@ class GridItem extends React.Component {
                         <Gaugage value={ this.props.value } maxValue={100} />
                     </div>
                 </div>
-                { this.props.perks.length > 0 || typeof(this.props.description) !== "undefined" ? <hr /> : false }
+                { this.props.perks.length > 0 ? <hr /> : false }
                 <div className="Grid__ItemPerks">
                     {this.props.perks.map((perk, index) => (
                         <span key={index}>{perk}</span>
                     ))}
                 </div>
+                { typeof(this.props.description) !== "undefined" ? <hr /> : false }
                 <p>{this.props.description}</p>
             </div>
         )

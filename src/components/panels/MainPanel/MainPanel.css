@@ -24,7 +24,8 @@
 .MainPanel > .MainPanel__Social, 
 .MainPanel > .MainPanel__Languages, 
 .MainPanel > .MainPanel__Profile,
-.MainPanel > .MainPanel__SoftSkills {
+.MainPanel > .MainPanel__SoftSkills,
+.MainPanel > .MainPanel__About {
     padding: 0 1rem 0 1rem;
 }
 

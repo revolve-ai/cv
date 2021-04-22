@@ -33,7 +33,7 @@
 
 @media (min-width: 1600px) {
     .App > .AppGrid {
-        grid-template-columns: 15% 25rem 1fr 1fr 15%;
+        grid-template-columns: 12% 25rem 1fr 1fr 12%;
         grid-template-areas: 
             ". . . . ."
             ". MainPanel SkillPanel SkillPanel ."

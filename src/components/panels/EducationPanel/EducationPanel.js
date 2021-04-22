@@ -13,7 +13,7 @@ export default class EducationPanel extends React.Component {
                 description: (
                     <div>
                         <i className="bi bi-award"></i>
-                        <a href="/data/thunder-it.pdf" target="_blank">Praktikumszeugnis</a>
+                        <a href="/data/documents/Thunder-IT.pdf" target="_blank">Praktikumszeugnis</a>
                     </div>
                 )
             },

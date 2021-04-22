@@ -10,11 +10,16 @@ export default class MainPanel extends React.Component {
                 <div className="MainPanel__Profile">
                     <span className="ProfileName">Sandro Schaurer, 24</span>
                     <ul>
-                        <li><i className="bi bi-briefcase"></i> Fachinformatiker für Anwendungsentwicklung</li>
+                        <li><i className="bi bi-briefcase"></i> Fachinformatiker Anwendungsentwicklung</li>
                         <li><i className="bi bi-house"></i> 76829, Landau in der Pfalz</li>
                         <li><i className="bi bi-envelope"></i> sandro.schaurer@gmail.com</li>
                         <li><i className="bi bi-phone"></i> 06341/2666438</li>
                     </ul>
+                    <hr />
+                </div>
+                <div className="MainPanel__About">
+                    <h2><i className="bi bi-person"></i> About me</h2>
+                    <p>text</p>
                     <hr />
                 </div>
                 <div className="MainPanel__Languages">
