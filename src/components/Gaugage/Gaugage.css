@@ -5,6 +5,7 @@
     padding: 0.25rem 0.25rem;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     margin: 0.25rem 0;
 }
 
@@ -15,6 +16,13 @@
 }
 
 .Gaugage > .Gaugage__Text {
-    bottom: 0.15rem;
-    align-self: center;
+    margin-top: -1.15rem;
+    margin-bottom: 0.05rem;
+    text-align: center;
+    opacity: 0;
+    transition-duration: .2s;
+}
+
+.Gaugage:hover > .Gaugage__Text {
+    opacity: 1;
 }

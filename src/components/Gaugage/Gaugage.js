@@ -6,6 +6,7 @@ export default class Gaugage extends React.Component {
         return (
             <div className="Gaugage">
                 <div className="Gaugage__Fill" style={{width: this.props.value / this.props.maxValue * 100 + "%"}}></div>
+                <span className="Gaugage__Text">{ this.props.value / this.props.maxValue * 100 }%</span>
             </div>
         );
     }
