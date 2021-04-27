@@ -17,11 +17,6 @@ export default class MainPanel extends React.Component {
                     </ul>
                     <hr />
                 </div>
-                <div className="MainPanel__About">
-                    <h2><i className="bi bi-person"></i> About me</h2>
-                    <p>text</p>
-                    <hr />
-                </div>
                 <div className="MainPanel__Languages">
                     <h2><i className="bi bi-globe"></i> Languages</h2>
                     <ul>
