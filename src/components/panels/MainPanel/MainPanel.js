@@ -31,13 +31,6 @@ export default class MainPanel extends React.Component {
                     </ul>
                     <hr />
                 </div>
-                <div className="MainPanel__SoftSkills">
-                    <h2> Soft Skills</h2>
-                    <ul>
-                        <li></li>
-                    </ul>
-                    <hr />
-                </div>
                 <div className="MainPanel__Social">
                     <h2><i className="bi bi-box"></i> Social</h2>
                     <ul>
