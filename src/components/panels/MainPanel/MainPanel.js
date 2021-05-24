@@ -7,7 +7,7 @@ export default class MainPanel extends React.Component {
     render() {
         return (
             <div className="AppPanel MainPanel">
-                <img className="ProfileImage" alt="" src="/data/images/Sandro.jpg" />
+                <img className="ProfileImage" alt="" src="./data/images/Sandro.jpg" />
                 <div className="MainPanel__Profile">
                     <span className="ProfileName">Sandro Schaurer, 24</span>
                     <ul>
