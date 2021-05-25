@@ -33,9 +33,12 @@ export default class MainPanel extends React.Component {
                     <hr />
                 </div>
                 <div className="MainPanel__SoftSkills">
-                    <h2> Soft Skills</h2>
+                    <h2><i className="bi bi-asterisk"></i> Soft Skills</h2>
                     <ul>
-                        <li><Badge>testoooo</Badge></li>
+                        <li><Badge>Teamfähig</Badge></li>
+                        <li><Badge>Verantwortungsbewusst</Badge></li>
+                        <li><Badge>Lernbereit</Badge></li>
+                        <li><Badge>Zuverlässig</Badge></li>
                     </ul>
                     <hr />
                 </div>
