@@ -9,7 +9,7 @@ export default class MainPanel extends React.Component {
             <div className="AppPanel MainPanel">
                 <img className="ProfileImage" alt="" src="./data/images/Sandro.jpg" />
                 <div className="MainPanel__Profile">
-                    <span className="ProfileName">Sandro Schaurer, 24</span>
+                    <span className="ProfileName">Sandro Schaurer, 25</span>
                     <ul>
                         <li><i className="bi bi-briefcase"></i> Fachinformatiker Anwendungsentwicklung</li>
                         <li><i className="bi bi-house"></i> 76829, Landau in der Pfalz</li>
