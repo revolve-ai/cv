@@ -52,7 +52,7 @@ export default class WorkPanel extends React.Component {
             {
                 name: "PHP",
                 image: "./data/images/PHPLogo.png",
-                value: 65,
+                value: 80,
                 perks: []
             },
             {
