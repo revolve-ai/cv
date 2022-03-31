@@ -45,7 +45,7 @@ export default class MainPanel extends React.Component {
                 <div className="MainPanel__Social">
                     <h2><i className="bi bi-box"></i> Social</h2>
                     <ul>
-                        <li><a href="https://github.com/Aruinerk/" target="_blank" rel="noreferrer"><i className="bi bi-github"></i> Github</a></li>
+                        <li><a href="https://github.com/r-evolve/" target="_blank" rel="noreferrer"><i className="bi bi-github"></i> Github</a></li>
                     </ul>
                 </div>
             </div>
