@@ -41,7 +41,7 @@ export default class EducationPanel extends React.Component {
             {
                 title: 'Ausbildung Fachinformatiker Anwendungsentwicklung | SoftENGINE GmbH',
                 from: new Date(2018, 4).toLocaleDateString(),
-                to: new Date(2020, 6).toLocaleDateString(),
+                to: new Date(2021, 6).toLocaleDateString(),
                 description: (
                     <div>
                         <i className="bi bi-award"></i>
@@ -50,9 +50,9 @@ export default class EducationPanel extends React.Component {
                 )
             },
             {
-                title: 'Junior PHP Backend Developer | Flagbit GmbH & Co. KG',
-                from: new Date(2020, 6, 15).toLocaleDateString(),
-                to: 'today'
+                title: 'Junior PHP Fullstack Developer | Flagbit GmbH & Co. KG',
+                from: new Date(2021, 6, 15).toLocaleDateString(),
+                to: new Date(2022, 9, 31).toLocaleDateString()
             }
         ],
         educationItems: [

@@ -10,7 +10,7 @@ export default class WorkPanel extends React.Component {
             {
                 name: "JavaScript",
                 image: "./data/images/JavaScriptLogo.png",
-            value: 90,
+                value: 90,
                 perks: [
                     <a href="https://reactjs.org/" target="_blank" rel="noreferrer">React <i className="bi bi-check"></i></a>,
                     <a href="https://www.highcharts.com/" target="_blank" rel="noreferrer">Highcharts <i className="bi bi-check"></i></a>,
@@ -21,7 +21,7 @@ export default class WorkPanel extends React.Component {
             {
                 name: "CSS",
                 image: "./data/images/CSS3Logo.png",
-                value: 82,
+                value: 85,
                 perks: [
                     <a href="https://lesscss.org/" target="_blank" rel="noreferrer">Less <i className="bi bi-check"></i></a>,
                     <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">Sass/Scss <i className="bi bi-check"></i></a>
@@ -30,11 +30,27 @@ export default class WorkPanel extends React.Component {
             {
                 name: "C#",
                 image: "./data/images/CSharpLogo.png",
-                value: 75,
+                value: 70,
                 perks: [
                     <a href="https://unity.com/de" target="_blank" rel="noreferrer">Unity <i className="bi bi-check"></i></a>,
                     <a href="https://nhibernate.info/">NHibernate <i className="bi bi-check"></i></a>,
                     <a href="https://docs.microsoft.com/de-de/ef/">Entity Framework <i className="bi bi-check"></i></a>
+                ]
+            },
+            {
+                name: "Java",
+                image: "./data/images/JavaLogo.png",
+                value: 70,
+                perks: [
+                    <a href="https://hibernate.org/orm/" target="_blank" rel="noreferrer">Hibernate <i className='bi bi-check'></i></a>
+                ]
+            },
+            {
+                name: "Dart",
+                image: "./data/images/DartLogo.png",
+                value: 30,
+                perks: [
+                    <a href="https://flutter.dev/" target="_blank" rel="noreferrer">Flutter <i className="bi bi-check"></i></a>
                 ]
             },
             {
@@ -52,13 +68,7 @@ export default class WorkPanel extends React.Component {
             {
                 name: "PHP",
                 image: "./data/images/PHPLogo.png",
-                value: 80,
-                perks: []
-            },
-            {
-                name: "Java",
-                image: "./data/images/JavaLogo.png",
-                value: 45,
+                value: 65,
                 perks: []
             },
             {
@@ -104,9 +114,9 @@ export default class WorkPanel extends React.Component {
         ],
         projects: [
             {
-                name: <a href="https://github.com/Aruinerk/CVHost" target="_blank" rel="noreferrer">CVHost</a>,
+                name: <a href="https://github.com/r-evolve/cv" target="_blank" rel="noreferrer">CV</a>,
                 image: "./data/images/GitHubLogo.png",
-                progress: 80,
+                progress: 100,
                 perks: [
                     "JavaScript/React"
                 ],
@@ -127,16 +137,17 @@ export default class WorkPanel extends React.Component {
                 ]
             },
             {
-                name: <a href="https://github.com/AruOnline/DBCache" target="_blank" rel="noreferrer">AruOnline/DBCache</a>,
+                name: "DriftCity Origin",
                 image: "./data/images/GitHubLogo.png",
-                progress: 90,
+                progress: 80,
                 perks: [
-                    "C#/.NET Standard",
-                    "NHibernate"
+                    "Java",
+                    "Hibernate",
+                    "Networking",
+                    "Security"
                 ],
                 description: [
-                    "DBCache ist eine C#-Anwendung, welche als bindeglied zwischen einer MySQL/MariaDB Datenbank und einer C# Laufzeit dient. " +
-                    "Das Hauptaugenmerk liegt auf Performance und Clean-Code."
+                    "DriftCity Origin ist ein privates Langzeitprojekt, welches darauf abzielt das damalige Spiel vollständig zu Emulieren."
                 ]
             }
         ]
